@@ -1,0 +1,78 @@
+/* Color de Fondo de la Página - Cambiar si queda feo */
+
+body {
+    background-color: rgba(211, 196, 65, 0.199);
+}
+
+header {
+    background-color: dodgerblue;
+}
+
+h1 {
+    text-align: center;
+    color: darkviolet;
+    }
+
+.botoningresar {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 48%;
+    margin-right: 40%;
+}
+
+.imgbien {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ingreso {
+    text-align: center;
+}
+
+/* configuraciones de la Linea 1 -- Más adelante reemplazar por alternativas con flexbox  */
+
+.simbolo {
+    margin-right: 0%;
+    margin-left: 2%;
+    } 
+
+.generos {
+    margin-left: 1%;
+    margin-right: 4%;
+    }
+
+.searchbar {
+    margin-left: 33%;
+    margin-right: 20%;
+    }
+
+.botescribir {
+    margin-left: 0%;
+    margin-right: 15%;
+    }
+
+.perfil {
+    margin-right: 0%;
+    margin-left: 2%;
+    }
+
+.imagenesprincipales {
+    text-align: center;
+    margin-top: 4%;
+  }
+
+/* ------------------------------------------------ */
+
+h3 {
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.contenedor-generos {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;  
+    margin-right: 10%;
+}
+
+
