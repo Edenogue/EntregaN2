@@ -71,8 +71,13 @@ h3 {
 .contenedor-generos {
     margin-left: 10%;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     margin-right: 10%;
+}
+
+/* Altura del carrusel: duplica la altura sin afectar el ancho */
+.h-400 {
+    height: 400px;
 }
 
 
