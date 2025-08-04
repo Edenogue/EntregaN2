@@ -71,8 +71,21 @@ h3 {
 .contenedor-generos {
     margin-left: 10%;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     margin-right: 10%;
+}
+
+/* Efecto de ampliación en imágenes del carrusel */
+.carousel-item {
+    overflow: hidden;
+}
+
+.carousel-item img {
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
 }
 
 
