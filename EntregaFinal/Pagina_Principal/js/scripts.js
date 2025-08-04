@@ -31,7 +31,7 @@ $(document).ready(function () {
   );
 
   // Image hover preview
-  $('img').hover(
+  $('img.previewable-img').hover(
     function (e) {
       const src = $(this).attr('src');
       const preview = $('<div class="image-hover-preview"><img src="' + src + '" alt="preview"></div>');
@@ -43,7 +43,7 @@ $(document).ready(function () {
     }
   );
 
-  $('img').mousemove(function (e) {
+  $('img.previewable-img').mousemove(function (e) {
     $('.image-hover-preview').css({ top: e.pageY + 10, left: e.pageX + 10 });
   });
 
