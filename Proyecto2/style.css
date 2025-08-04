@@ -6,6 +6,21 @@ body {
 
 header {
     background-color: rgb(218, 228, 238);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(218, 228, 238);
+}
+
+.navbar-brand img {
+    transition: box-shadow 0.3s ease;
 }
 
 h1 {
