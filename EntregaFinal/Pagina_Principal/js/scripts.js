@@ -21,5 +21,14 @@ $(document).ready(function () {
     updateNav();
   });
 
+  $('header img').hover(
+    function () {
+      $(this).addClass('logo-glow');
+    },
+    function () {
+      $(this).removeClass('logo-glow');
+    }
+  );
+
   updateNav();
 });

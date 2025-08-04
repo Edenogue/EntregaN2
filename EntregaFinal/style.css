@@ -6,11 +6,29 @@ body {
 
 header {
     background-color: rgb(218, 228, 238);
+    padding: 1rem 0 !important;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+    transition: box-shadow 0.3s ease;
+}
+
+footer {
+    background-color: rgb(218, 228, 238);
+    padding: 1rem 0;
+}
+
+.logo-glow {
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.6);
 }
 
 h1 {
     text-align: center;
     color: darkviolet;
+    font-size: 1.33em;
+    margin: 0;
     }
 
 .botoningresar {
