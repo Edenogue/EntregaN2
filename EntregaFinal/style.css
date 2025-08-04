@@ -107,3 +107,24 @@ h3 {
 }
 
 
+/* Sección Taller */
+.taller-section {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.taller-section h2 {
+    color: darkviolet;
+    margin-bottom: 1.5rem;
+}
+
+.taller-section img {
+    border-radius: 0.25rem;
+}
+
+.taller-section p {
+    margin-top: 0.5rem;
+}
+
+
