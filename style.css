@@ -6,11 +6,11 @@ body {
 
 header {
     background-color: dodgerblue;
-    padding: 1rem 0 !important;
+    padding: 0.5rem 0 !important;
 }
 
 header img {
-    height: 80px;
+    height: 40px;
     width: auto;
     transition: box-shadow 0.3s ease;
 }
