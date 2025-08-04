@@ -3,6 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recomendaciones de libros, reseñas y acceso a historias originales.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://tusitio.com/pagina-principal">
+  <meta property="og:title" content="Nubescribe – Recomendaciones de libros">
+  <meta property="og:description" content="Recomendaciones de libros, reseñas y acceso a historias originales.">
+  <meta property="og:image" content="https://tusitio.com/nubescribe.png">
+  <meta property="og:url" content="https://tusitio.com/pagina-principal">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="Equipo Nubescribe">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/favicon.ico">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Nubescribe",
+    "url": "https://tusitio.com/pagina-principal"
+  }
+  </script>
   <title>Nubescribe</title>
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,7 +32,7 @@
   <div class="container">
     <!-- =================== HEADER =================== -->
     <header class="py-4 d-flex justify-content-center">
-      <img src="../nubescribe.png" alt="Nubescribe" class="img-fluid">
+      <img src="../nubescribe.png" alt="Nubescribe" class="img-fluid" loading="lazy">
     </header>
 
     <!-- =================== NAVBAR =================== -->
@@ -55,23 +74,23 @@
                 <div class="carousel-inner">
                   <!-- Slide 1 -->
                   <div class="carousel-item active" data-description="Todas las Hadas del Reino: Este es un libro de aventuras emocionante.">
-                    <img src="por1.jpg" class="d-block w-100 h-200" alt="Portada del Libro 1 - Aventuras">
+                    <img src="por1.jpg" class="d-block" alt="Portada del Libro 1 - Aventuras" loading="lazy" width="400" height="551">
                   </div>
                   <!-- Slide 2 -->
                   <div class="carousel-item" data-description="Huellas de un Amor: Una novela romántica cautivadora.">
-                    <img src="por2.jpeg" class="d-block w-100 h-200" alt="Portada del Libro 2 - Novela Romántica">
+                    <img src="por2.jpeg" class="d-block" alt="Portada del Libro 2 - Novela Romántica" loading="lazy" width="400" height="551">
                   </div>
                   <!-- Slide 3 -->
                   <div class="carousel-item" data-description="He Can See You: Un libro de misterio intrigante.">
-                    <img src="por3.jpeg" class="d-block w-100 h-200" alt="Portada del Libro 3 - Misterio">
+                    <img src="por3.jpeg" class="d-block" alt="Portada del Libro 3 - Misterio" loading="lazy" width="400" height="551">
                   </div>
                   <!-- Slide 4 -->
                   <div class="carousel-item" data-description="El Poder de la Accion: Una biografía inspiradora.">
-                    <img src="por4.jpeg" class="d-block w-100 h-200" alt="Portada del Libro 4 - Biografía">
+                    <img src="por4.jpeg" class="d-block" alt="Portada del Libro 4 - Biografía" loading="lazy" width="400" height="551">
                   </div>
                   <!-- Slide 5 -->
                   <div class="carousel-item" data-description="Aventuras en el Amazonas: Una colección de cuentos cortos.">
-                    <img src="por5.jpeg" class="d-block w-100 h-200" alt="Portada del Libro 5 - Cuentos Cortos">
+                    <img src="por5.jpeg" class="d-block" alt="Portada del Libro 5 - Cuentos Cortos" loading="lazy" width="400" height="551">
                   </div>
                 </div>
                 <!-- Controles del Carrusel -->
@@ -137,10 +156,10 @@
     </div>
 
     <!-- Librerías JS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/popper.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/scripts.js" defer></script>
     <script>
       // Script para actualizar la descripción del libro al cambiar de slide
       $(document).ready(function () {

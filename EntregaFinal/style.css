@@ -99,6 +99,10 @@ h3 {
 }
 
 .carousel-item img {
+    width: 400px;
+    height: 551px;
+    object-fit: cover;
+    margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
