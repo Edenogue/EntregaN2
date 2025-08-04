@@ -133,3 +133,21 @@ h3 {
 }
 
 
+/* =================== Image Hover Preview =================== */
+.image-hover-preview {
+    position: absolute;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 5px;
+    max-width: 300px;
+    max-height: 300px;
+    pointer-events: none;
+    z-index: 1000;
+}
+.image-hover-preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
