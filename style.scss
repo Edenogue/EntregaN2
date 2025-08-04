@@ -1,0 +1,102 @@
+// Variables
+$background-color: rgba(211, 196, 65, 0.199);
+$primary-color: dodgerblue;
+$accent-color: darkviolet;
+
+body {
+  background-color: $background-color;
+}
+
+header,
+footer {
+  background-color: $primary-color;
+}
+
+header {
+  padding: 0.5rem 0 !important;
+
+  img {
+    height: 40px;
+    width: auto;
+    transition: box-shadow 0.3s ease;
+  }
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.logo-glow {
+  box-shadow: 0 0 10px rgba(218, 165, 32, 0.6);
+}
+
+h1 {
+  text-align: center;
+  color: $accent-color;
+  font-size: 1.33em;
+  margin: 0;
+}
+
+.botoningresar {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 48%;
+  margin-right: 40%;
+}
+
+.imgbien {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.ingreso {
+  text-align: center;
+}
+
+// configuraciones de la Linea 1 -- Más adelante reemplazar por alternativas con flexbox
+.simbolo {
+  margin-right: 0%;
+  margin-left: 2%;
+}
+
+.generos {
+  margin-left: 1%;
+  margin-right: 4%;
+}
+
+.searchbar {
+  margin-left: 33%;
+  margin-right: 20%;
+}
+
+.botescribir {
+  margin-left: 0%;
+  margin-right: 15%;
+}
+
+.perfil {
+  margin-right: 0%;
+  margin-left: 2%;
+}
+
+.imagenesprincipales {
+  text-align: center;
+  margin-top: 4%;
+}
+
+h3 {
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
+.contenedor-generos {
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+
+.miperfil {
+  display: flex;
+  margin-left: auto;
+}
