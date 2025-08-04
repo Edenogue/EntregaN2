@@ -9,7 +9,7 @@ header {
     padding: 0.5rem 0 !important;
 }
 
-header img {
+header img.img-fluid {
     height: 40px;
     width: auto;
     transition: box-shadow 0.3s ease;
